@@ -1,0 +1,82 @@
+header{
+    background-color: bisque;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+h3{
+    text-decoration: underline;
+}
+h4.footer{
+    text-align: center;
+    text-decoration: wavy;
+}
+p{
+    font-size: 22px;
+    font-style: normal;
+}
+
+p span{
+    font-style: italic;
+    font-weight: bold;
+}
+
+span.last{
+    text-decoration: underline;
+}
+
+span.first{
+    font-style: normal;
+    color: red;
+}
+
+ul{
+    font-family: fantasy;
+    list-style-image:  url(http://upload.wikimedia.org/wikipedia/commons/1/19/Icons-mini-icon_attachment.gif)
+}
+
+ol{
+    font-family: sans-serif;
+    list-style-type: upper-roman;
+}
+
+body{
+    background-color: darkgrey;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+div.blue{
+    background-color: thistle;
+}
+
+div.ingredients{
+    background-color: deepskyblue;
+}
+div.driections{
+    background-color: mediumaquamarine;
+}
+
+div.note{
+    background-color: red;
+    text-decoration-color: white;
+}
+
+div{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+footer{
+    background-color: bisque;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
