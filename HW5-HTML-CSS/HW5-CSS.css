@@ -34,7 +34,7 @@ span.first{
     color: red;
 }
 
-ul{
+ul.in{
     font-family: fantasy;
     list-style-image:  url(http://upload.wikimedia.org/wikipedia/commons/1/19/Icons-mini-icon_attachment.gif)
 }
