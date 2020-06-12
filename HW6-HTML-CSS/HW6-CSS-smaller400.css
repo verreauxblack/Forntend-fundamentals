@@ -1,0 +1,156 @@
+header{
+    background-color: bisque;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: fixed;
+    background-color: #333;
+    bottom: 0;
+}
+
+nav a{
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 5px 10px 2px 10px;
+    text-decoration: none;
+}
+
+nav li{
+    float: left;
+    font-size: 8px;
+}
+
+.active{
+    background-color: #4CAF50;
+    color: white;
+}
+
+nav a:hover:not(.active){
+    background-color: #555;
+    color: yellow;
+}
+
+
+
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+h3{
+    text-decoration: underline;
+}
+h4.foot{
+    text-align: center;
+    text-decoration: wavy;
+}
+
+body{
+    margin: 0px;
+}
+
+main{
+    padding: 20px;
+    height: 2300px;
+}
+
+p{
+    font-size: 15px;
+    font-style: normal;
+}
+
+p span{
+    font-style: italic;
+    font-weight: bold;
+}
+
+span.last{
+    text-decoration: underline;
+}
+
+span.first{
+    font-style: normal;
+    color: red;
+}
+
+ul.in{
+    font-family: fantasy;
+    list-style-image:  url(http://upload.wikimedia.org/wikipedia/commons/1/19/Icons-mini-icon_attachment.gif)
+}
+
+ol{
+    font-family: sans-serif;
+    list-style-type: upper-roman;
+}
+
+main div section:first-child{
+    display: flex;
+}
+
+.list{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+}
+#ingredients ul li{
+    font-size: 20px;
+}
+
+.card{
+    background-color: powderblue;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+
+.list img{
+    width: 100%;
+    height: auto;
+}
+
+#cake2{
+    text-align: center;
+}
+
+#cake2 img{
+    width: 50%;
+    height: auto;
+    
+}
+
+
+div{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+div.blue{
+    background-color: thistle;
+    border-radius: 10px;
+}
+
+div.note{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
+
+footer{
+    background-color: bisque;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
