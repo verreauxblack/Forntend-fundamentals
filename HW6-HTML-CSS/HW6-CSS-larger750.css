@@ -1,0 +1,157 @@
+header{
+    background-color: bisque;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 20%;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    overflow: auto;
+}
+
+nav a{
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: auto;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a.active{
+    background-color: red ;
+    color: white;
+}
+
+nav a:hover:not(.active){
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+h3{
+    text-decoration: underline;
+}
+h4.foot{
+    text-align: center;
+    text-decoration: wavy;
+}
+
+body{
+    margin: 0px;
+}
+
+main{
+    background-color: lightblue;
+    padding:1px 16px;
+    margin-left: 20%;
+    height: auto;
+}
+
+p{
+    font-size: 22px;
+    font-style: normal;
+}
+
+p span{
+    font-style: italic;
+    font-weight: bold;
+}
+
+span.last{
+    text-decoration: underline;
+}
+
+span.first{
+    font-style: normal;
+    color: red;
+}
+
+ul.in{
+    font-family: fantasy;
+    list-style-image:  url(http://upload.wikimedia.org/wikipedia/commons/1/19/Icons-mini-icon_attachment.gif)
+}
+
+ol{
+    font-family: sans-serif;
+    list-style-type: upper-roman;
+}
+
+main div section:first-child{
+    display: flex;
+}
+
+.list{
+    display: flex;
+    flex-flow: row wrap;
+   
+}
+
+}
+#ingredients li{
+    font-size: 20px;
+}
+
+.card{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 10px 10px;
+    border-color: black;
+    border-style: outset;
+}
+
+.list img{
+    width: 80%;
+    height: 50%;
+}
+
+
+#cake2 img{
+    width: 50%;
+    height: auto;
+    
+}
+
+
+div{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+div.blue{
+    background-color: thistle;
+    border-radius: 10px;
+}
+
+div.note{
+    background-color:lightgreen;
+    color: white;
+    border-radius: 10px;
+    border-style: outset;
+}
+
+
+footer{
+    background-color: bisque;
+    margin-left: 20%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
