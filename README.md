@@ -26,5 +26,5 @@ project #2 referrence:
     https://icomoon.io/
     
   Others:
-    https://www.quora.com/How-do-I-add-a-background-image-located-in-the-computer-in-a-HTML-page-using-CSS
-    https://www.w3schools.com/howto/howto_js_active_element.asp
+    # https://www.quora.com/How-do-I-add-a-background-image-located-in-the-computer-in-a-HTML-page-using-CSS
+    # https://www.w3schools.com/howto/howto_js_active_element.asp
