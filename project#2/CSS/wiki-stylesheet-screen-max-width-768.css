@@ -1,0 +1,57 @@
+.other-projects{
+    width: 100%;
+}
+.other-project{
+    width: 33%;
+}
+
+.app-badges .footer-sidebar-content{
+    text-align: center;
+}
+.app-badges .sprite.footer-sidebar-icon{
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    top: -3px;
+    left: 0;
+    vertical-align: middle;
+    transform: scale(.7);
+}
+.footer{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-top: 12.8px;
+    padding-top: 1.28rem;
+}
+.footer .footer-sidebar{
+    -ms-flex-order: 1;
+    order: 1;
+}
+.footer .other-projects{
+    -ms-flex-order: 2;
+    order: 2;
+}
+.footer .app-badges{
+    -ms-flex-order: 3;
+    order: 3;
+}
+.footer-sidebar{
+    width: 100%;
+}
+.sprite.footer-sidebar-icon{
+    display: block;
+    position: relative;
+    left: 0;
+    margin: 0 auto 12.8px;
+    margin: 0 auto 1.28rem;
+}
+.footer-sidebar-content{
+    max-width: none;
+}
+.footer-sidebar-text{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}

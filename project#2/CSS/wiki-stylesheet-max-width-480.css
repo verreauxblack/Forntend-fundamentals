@@ -1,0 +1,138 @@
+.central-textlogo{
+    position: relative;
+    height: 70px;
+    width: auto;
+    margin: 0;
+    margin-top: 20px;
+    margin-top: 2rem;
+    text-align: center;
+    line-height: 25px;
+    line-height: 2.5rem;
+    text-indent: -10px;
+    text-indent: -1rem;
+}
+.central-textlogo-wrapper{
+    position: relative;
+    top: 2px;
+    text-indent: 2px;
+    text-indent: .2rem;
+}
+.svg-Wikipedia_wordmark{
+    width: 174px;
+    height: 30px;
+    background-position: -10px -10px;
+
+}
+.localized-slogan{
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+.central-featured-logo{
+    position: relative;
+    display: inline-block;
+    width: 57px;
+    height: auto;
+    left: 0;
+    top: 0;
+}
+.central-featured{
+    width: auto;
+    height: auto;
+    margin-top: 70px;
+    margin-top: 7rem;
+    font-size: 12px;
+    font-size: 1.2rem;
+    text-align: left;
+}
+.central-featured:after{
+    content: " ";
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
+.central-featured-lang{
+    display: block;
+    float: left;
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    box-sizing: border-box;
+    height: 64px;
+    height: 6.4rem;
+    width: 33%;
+    margin: 0;
+    padding: 0 16px;
+    padding: 0 1.6rem;
+    text-align: center;
+}
+.central-featured-lang,.central-featured-lang strong{
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+.central-featured-lang small{
+    font-size: 11px;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+.langlist{
+    font-size: inherit;
+}
+.langlist a{
+    word-wrap: break-word;
+    white-space: normal;
+}
+.lang-list-container{
+    width: auto;
+    margin-left: 8px;
+    margin-left: .8rem;
+    margin-right: 8px;
+    margin-right: .8rem;
+}
+.bookshelf{
+    overflow: visible;
+}
+.bookshelf{
+    width: auto;
+    left: auto;
+}
+.bookshelf-container{
+    text-align: left;
+    width: auto;
+}
+.search-container{
+    margin-top: 0;
+    height: 78px;
+    height: 7.8rem;
+    position: absolute;
+    top: 90px;
+    top: .9rem;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    width: auto;
+    padding: 0;
+    text-align: left;
+}
+.search-container label{
+    display: none;
+}
+.search-form #searchInput{
+    max-width: 40%;
+    vertical-align: middle;
+}
+.search-form .formBtn{
+    max-width: 25%;
+    vertical-align: middle;
+}
+form fieldset{
+    margin: 0;
+    border-left: 0;
+    border-right: 0;
+}
+hr{
+    margin-top: 6.5px;
+    margin-top: .65rem;
+}

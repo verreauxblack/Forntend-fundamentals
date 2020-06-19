@@ -1,0 +1,21 @@
+.pure-form input[type=search]{
+    display: block;
+}
+.search-container .pure-form fieldset{
+    margin-left: 10px;
+    margin-left: 1rem;
+    margin-right: 66px;
+    margin-right: 6.6rem;
+    margin-top: 110px;
+    margin-top: 11rem;
+}
+.search-container .search-input{
+    width: 100%;
+    margin-right: -66px;
+    margin-right: -6.6rem;
+}
+.search-container .pure-form button{
+    float: right;
+    right: -56px;
+    right: -5.6rem;
+}
